@@ -22,7 +22,7 @@ const (
 
 var (
 	addr = flag.String("http", ":8080", "http listen address")
-	root = flag.String("root", "/home/ashutosh/Desktop/myRepo/MusicPlayer/Music/", "music root")
+	root = flag.String("root", "./Music/", "music root")
 )
 
 func main() {
